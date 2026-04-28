@@ -1,1 +1,3 @@
-src/api/article/routes/article.js
+'use strict';
+const { createCoreRouter } = require('@strapi/strapi').factories;
+module.exports = createCoreRouter('api::article.article');
