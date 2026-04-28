@@ -1,1 +1,3 @@
-src/api/article/services/article.js
+'use strict';
+const { createCoreService } = require('@strapi/strapi').factories;
+module.exports = createCoreService('api::article.article');
