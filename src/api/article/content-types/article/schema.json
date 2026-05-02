@@ -4,14 +4,24 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "Article"
+    "displayName": "Article",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "attributes": {
-    "title": { "type": "string" },
-    "content": { "type": "richtext" },
-    "url": { "type": "string" }
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "url": {
+      "type": "string"
+    },
+    "cover_image_url": {
+      "type": "string"
+    }
   }
 }
