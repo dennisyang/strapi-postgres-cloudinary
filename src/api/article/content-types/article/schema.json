@@ -21,7 +21,7 @@
       "type": "string"
     },
     "cover_image_url": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
