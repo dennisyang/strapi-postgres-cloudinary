@@ -4,8 +4,7 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "Article",
-    "description": ""
+    "displayName": "Article"
   },
   "options": {
     "draftAndPublish": true
@@ -21,7 +20,7 @@
       "type": "string"
     },
     "cover_image_url": {
-      "type": "text"
+      "type": "string"
     }
   }
 }
